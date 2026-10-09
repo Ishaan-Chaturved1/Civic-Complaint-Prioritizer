@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+*.env.local
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads & temporary artifacts
+uploads/*
+!uploads/.gitkeep
+
+# Models & Checkpoints (large binary weights)
+models/vision/*.pt
+models/vision/*.pth
+models/text/*.safetensors
+models/text/*.bin
+ml/vision/runs/
+runs/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
